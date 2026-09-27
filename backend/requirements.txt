@@ -1,0 +1,8 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+SQLAlchemy>=2.0
+pydantic>=2.6
+bcrypt>=4.1
+PyJWT>=2.8
+# PostgreSQL driver (only needed when DATABASE_URL points to Postgres)
+psycopg[binary]>=3.1
